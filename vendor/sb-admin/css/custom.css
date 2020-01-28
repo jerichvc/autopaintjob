@@ -1,0 +1,133 @@
+/*!
+	Custom CSS
+ */
+ 
+ 
+ .hideInit{
+	visibility:hidden;
+ }
+ 
+ .invi{
+	 display:none;
+	 
+ }
+ 
+  .floatLeft{
+	float:left;
+ }
+ 
+ .floatRight{
+	float:right;
+ }
+ 
+ 
+ .clearBoth{
+	 clear: both;
+ }
+ 
+  
+ .marginTop10px{
+	 margin-top:10px;
+ }
+ 
+  .marginTop20{
+	 margin-top:20px;
+ }
+ 
+  .marginTop80{
+	 margin-top:80px;
+ }
+ 
+ 
+ .marginTopBottom20{
+	 margin-top:20px;
+	 margin-bottom:20px;
+ }
+ 
+ .padd8{
+	 padding:8px;
+	 
+ }
+ 
+ .error{
+	 color:red;
+	 font-size:12px;
+	 font-weight:normal
+ }
+ 
+ .bld{
+	 font-weight:bold
+ }
+ 
+
+ 
+ .red{
+	 color:red;
+ }
+ 
+ 
+ .green{
+	 color:#5cb85c;
+ }
+ 
+ 
+ .f12{
+	 font-size:12px;
+	 
+ }
+ 
+ 
+ .f8{
+	 font-size:8px;
+ }
+ 
+body.modal-open .datepicker {
+    z-index: 1200 !important;
+}
+
+
+input:-moz-read-only { /* For Firefox */
+    background-color: white;
+}
+
+input:read-only {
+    background-color: white;
+}
+
+
+.loaderModalSmall{
+	background-color:none;
+    border: none;
+    border-radius:0;
+    box-shadow:0;
+	
+}
+
+	
+	
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+
+
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+	
+}
+
+.modal { overflow: auto !important; }
+
+
+
+
+#page-wrapper{
+    margin:0  0 0 0;
+
+    
+}
